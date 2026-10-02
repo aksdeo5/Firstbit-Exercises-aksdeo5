@@ -8,15 +8,21 @@
 
 int main(void)
 {
-  int num, sum = 0;
+  int num, sum, i;
 
   // Input
   num = 28;
 
   // Logic
-  for (int i = 1; i <= num / 2; i++)
+  sum = 0;
+  i = 1;
+  while (i <= num / 2)
+  {
     if (num % i == 0)
       sum += i;
+
+    i++;
+  }
 
   if (sum == num)
     printf("%d is a perfect number.\n", num);

@@ -8,14 +8,16 @@
 
 int main(void)
 {
-  int num, fact = 1;
+  int num, fact, i;
 
   // Input
   num = 5;
 
   // Logic
-  for (int i = num; i >= 1; i--)
-    fact *= i;
+  fact = 1;
+  i = num;
+  while (i)
+    fact *= i--;
 
   printf("Factorial of %d: %d\n", num, fact);
 
