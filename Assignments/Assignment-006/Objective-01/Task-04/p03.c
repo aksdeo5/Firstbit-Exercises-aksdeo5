@@ -5,11 +5,11 @@
 
 #include <stdio.h>
 
-int is_vowel(void);
+int prompt_char_check_vowel(void);
 
 int main(void)
 {
-  int is_vowel = is_vowel();
+  int is_vowel = prompt_char_check_vowel();
 
   if (is_vowel)
     printf("The input character is a vowel alphabet.\n");
@@ -17,7 +17,7 @@ int main(void)
     printf("The input character is a consonant alphabet.\n");
 }
 
-int is_vowel(void)
+int prompt_char_check_vowel(void)
 {
   char ch;
 

@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-void is_vowel(char);
+void check_vowel_consonant(char);
 
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
   scanf("%c", &ch);
   printf("\n");
 
-  is_vowel(ch);
+  check_vowel_consonant(ch);
 }
 
-void is_vowel(char ch)
+void check_vowel_consonant(char ch)
 {
   // Logic (Assuming user inputs a valid alphabet character)
   if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||

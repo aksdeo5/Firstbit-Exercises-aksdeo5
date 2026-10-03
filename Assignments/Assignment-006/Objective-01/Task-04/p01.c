@@ -5,14 +5,14 @@
 
 #include <stdio.h>
 
-void is_vowel(void);
+void check_vowel_consonant(void);
 
 int main(void)
 {
-  is_vowel();
+  check_vowel_consonant();
 }
 
-void is_vowel(void)
+void check_vowel_consonant(void)
 {
   char ch;
 
