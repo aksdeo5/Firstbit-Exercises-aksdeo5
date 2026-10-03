@@ -5,14 +5,14 @@
 
 #include <stdio.h>
 
-void is_odd(void);
+void check_even_odd(void);
 
 int main(void)
 {
-  is_odd();
+  check_even_odd();
 }
 
-void is_odd(void)
+void check_even_odd(void)
 {
   int num;
 

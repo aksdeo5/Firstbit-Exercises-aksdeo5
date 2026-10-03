@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-void is_odd(int);
+void check_even_odd(int);
 
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
   scanf("%d", &num);
   printf("\n");
 
-  is_odd(num);
+  check_even_odd(num);
 }
 
-void is_odd(int num)
+void check_even_odd(int num)
 {
   if (num % 2 == 0)
     printf("%d is an even number.\n", num);

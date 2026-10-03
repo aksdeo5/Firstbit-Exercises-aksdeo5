@@ -25,8 +25,5 @@ int main(void)
 
 int is_odd(int num)
 {
-  if (num % 2 == 0)
-    return 0;
-
-  return 1;
+  return num % 2 != 0;
 }

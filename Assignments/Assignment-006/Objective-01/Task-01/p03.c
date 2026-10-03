@@ -10,6 +10,7 @@ int prompt_num_check_odd(void);
 int main(void)
 {
   int is_odd = prompt_num_check_odd();
+
   if (is_odd)
     printf("The input number is odd.\n");
   else
@@ -25,8 +26,5 @@ int prompt_num_check_odd(void)
   scanf("%d", &num);
   printf("\n");
 
-  if (num % 2 == 0)
-    return 0;
-
-  return 1;
+  return num % 2 != 0;
 }
