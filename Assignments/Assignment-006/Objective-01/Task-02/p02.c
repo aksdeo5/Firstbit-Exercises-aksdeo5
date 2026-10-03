@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-void prompt_num_check_palindrome(int);
+void check_palindrome(int);
 
 int main(void)
 {
@@ -17,10 +17,10 @@ int main(void)
   printf("\n");
 
   // Logic (Assuming user input a valid 3 digit number)
-  prompt_num_check_palindrome(num);
+  check_palindrome(num);
 }
 
-void prompt_num_check_palindrome(int num)
+void check_palindrome(int num)
 {
   int a, b;
 

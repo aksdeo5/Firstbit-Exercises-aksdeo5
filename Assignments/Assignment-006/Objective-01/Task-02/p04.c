@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int prompt_num_check_palindrome(int);
+int is_palindrome(int);
 
 int main(void)
 {
@@ -17,15 +17,15 @@ int main(void)
   printf("\n");
 
   // Logic (Assuming user input a valid 3 digit number)
-  int is_palindrome = prompt_num_check_palindrome(num);
+  int is_num_palindrome = is_palindrome(num);
 
-  if (is_palindrome)
+  if (is_num_palindrome)
     printf("%d is a palindrome number.\n", num);
   else
     printf("%d is not a palindrome number.\n", num);
 }
 
-int prompt_num_check_palindrome(int num)
+int is_palindrome(int num)
 {
   int a, b;
 

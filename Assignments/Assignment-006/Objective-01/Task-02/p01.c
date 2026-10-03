@@ -5,14 +5,14 @@
 
 #include <stdio.h>
 
-void prompt_num_check_palindrome(void);
+void check_palindrome(void);
 
 int main(void)
 {
-  prompt_num_check_palindrome();
+  check_palindrome();
 }
 
-void prompt_num_check_palindrome(void)
+void check_palindrome(void)
 {
   int num;
   int a, b;
