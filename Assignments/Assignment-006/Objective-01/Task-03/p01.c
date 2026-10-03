@@ -5,14 +5,14 @@
 
 #include <stdio.h>
 
-void prompt_year_check_leap(void);
+void check_leap_year(void);
 
 int main(void)
 {
-  prompt_year_check_leap();
+  check_leap_year();
 }
 
-void prompt_year_check_leap(void)
+void check_leap_year(void)
 {
   int year;
 

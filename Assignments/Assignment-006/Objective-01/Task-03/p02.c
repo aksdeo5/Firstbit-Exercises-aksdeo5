@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-void prompt_year_check_leap(int);
+void check_leap_year(int);
 
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
   scanf("%d", &year);
   printf("\n");
 
-  prompt_year_check_leap(year);
+  check_leap_year(year);
 }
 
-void prompt_year_check_leap(int year)
+void check_leap_year(int year)
 {
   if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
     printf("%d is a leap year.\n");
